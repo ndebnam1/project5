@@ -21,6 +21,7 @@ class UserDetail extends React.Component {
         in property match. So this should show details of user:
         {this.props.match.params.userId}. You can fetch the model for the
         user from window.models.userModel(userId).
+        
       </Typography>
     );
   }
