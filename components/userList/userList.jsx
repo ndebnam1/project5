@@ -30,10 +30,9 @@ class UserList extends React.Component {
     
     return (
       <div>
-        <Typography variant="body1">
-          This is the user list, which takes up 3/12 of the window.
-          You might choose to use <a href="https://mui.com/components/lists/">Lists</a> and <a href="https://mui.com/components/dividers/">Dividers</a> to
-          display your users like so:
+        <Typography className="top"variant="body1">
+          <h2 id="header">Users</h2>
+          <Divider className="line"/>
         </Typography>
         <List component="nav">
           {this.state.users.map((user, index) => (
@@ -45,9 +44,7 @@ class UserList extends React.Component {
           ))}
 
         </List>
-        <Typography variant="body1">
-          The model comes in from window.models.userListModel()
-        </Typography>
+        
       </div>
     );
   }

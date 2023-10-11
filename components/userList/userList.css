@@ -1,0 +1,10 @@
+#header{
+    align-self: center;
+    justify-self: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
