@@ -27,8 +27,8 @@ class UserDetail extends React.Component {
           <span>ID: {window.models.userModel(this.props.match.params.userId)._id}</span>
           <span>Location: {window.models.userModel(this.props.match.params.userId).location}</span>
           <span>Occupation: {window.models.userModel(this.props.match.params.userId).occupation}</span>
-        <Button className="myBtn" variant="contained" component={Link} to={`#/photos/${window.models.userModel(this.props.match.params.userId)._id}`}>User Photos</Button>
-       
+        {/* <Button className="myBtn" variant="contained" component={Link} href={`#/photos/${window.models.userModel(this.props.match.params.userId)._id}`}>User Photos</Button> */}
+       <Link className="myLink" underline="hover" href={`#/photos/${window.models.userModel(this.props.match.params.userId)._id}`}>{window.models.userModel(this.props.match.params.userId).first_name}'s Photos</Link>
 
         
         
