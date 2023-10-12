@@ -36,7 +36,6 @@ class UserList extends React.Component {
         </Typography>
         <List component="nav">
           {this.state.users.map((user, index) => (
-            
             <div key={index}>
               <ListItemButton component={Link} to={`#/users/${user._id}`} >{user.first_name}</ListItemButton>
               <Divider />

@@ -6,6 +6,7 @@ import {
   Link
 } from '@mui/material';
 import './userDetail.css';
+import fetchModelData from "../../lib/fetchModelData";
 
 
 /**
@@ -29,12 +30,7 @@ class UserDetail extends React.Component {
           <span>Occupation: {window.models.userModel(this.props.match.params.userId).occupation}</span>
         {/* <Button className="myBtn" variant="contained" component={Link} href={`#/photos/${window.models.userModel(this.props.match.params.userId)._id}`}>User Photos</Button> */}
        <Link className="myLink" underline="hover" href={`#/photos/${window.models.userModel(this.props.match.params.userId)._id}`}>{window.models.userModel(this.props.match.params.userId).first_name}'s Photos</Link>
-
-        
-        
       </div>
-        
-        
       </Typography>
     );
   }
