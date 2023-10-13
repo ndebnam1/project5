@@ -19,7 +19,7 @@ class UserDetail extends React.Component {
   render() {
     return (
       <Typography variant="body1" component="body1">
-        <div className='container'>
+        <div className='userDetailContainer'>
           <h1>User Details</h1>
           <Divider className="line"/>
           <span>First Name: {window.models.userModel(this.props.match.params.userId).first_name}</span>

@@ -1,11 +1,11 @@
-.container{
+.userDetailContainer{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
 }
 
-.container h1{
+.userDetailContainer h1{
     justify-self: center;
     align-self: center;
 }
