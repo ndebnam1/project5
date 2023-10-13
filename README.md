@@ -1,7 +1,7 @@
 # Srum Team
 ## Product Owner:
 Christian Taylor
-## Scrum Matser:
+## Scrum Master:
 Niles Debnam
 ## Developers:
 - Anthony Weihs
