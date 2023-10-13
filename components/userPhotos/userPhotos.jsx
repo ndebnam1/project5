@@ -12,22 +12,24 @@ class UserPhotos extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      photos: window.models.photoOfUserModel(),
+      photos: window.models.photoOfUserModel(this.props.match.params.userId),
     };
   }
 
   render() {
+    console.log(this.state.photos);
     return (
-      <Typography variant="body1">
+      <div>
         {this.state.photos.map((photo, index) => (
           <div key={index}>
-            <img src={"/home/nilesd/cs/softwareEngineering/project5/images/kenobi2.jpg"} />
+            <img src={`images/${photo.file_name}`} />
+            
 
           </div>
         ))}
           
      
-      </Typography>
+      </div>
 
     );
   }
