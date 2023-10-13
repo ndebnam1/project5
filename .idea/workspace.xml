@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9836a16-8d19-4b3a-90bb-f4253ade78a5" name="Changes" comment="Set up basics of ExpressJS from what I can tell.">
+    <list default="true" id="a9836a16-8d19-4b3a-90bb-f4253ade78a5" name="Changes" comment="Added Correct Files">
       <change beforePath="$PROJECT_DIR$/compiled/photoShare.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/photoShare.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/topBar/TopBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/topBar/TopBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fetchModelData.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetchModelData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-share.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photoShare.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/photoShare.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Christians__branch",
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/chris/WebstormProjects/project5",
@@ -78,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697214840457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Correct Files">
+      <option name="closed" value="true" />
+      <created>1697219710023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697219710023</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up basics of ExpressJS from what I can tell." />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up basics of ExpressJS from what I can tell." />
+    <MESSAGE value="Added Correct Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Correct Files" />
   </component>
 </project>
