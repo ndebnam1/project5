@@ -47,13 +47,13 @@ class UserDetail extends React.Component {
         return this.state.user ? (
             <div>
                 <Box component="form" noValidate autoComplete="off">
-                    <div>
-                        <Button variant="contained" component="a" href={"#/photos/" + this.state.user._id}>
+                    <div id="myBtn" style={{color:"purple"}}>
+                        <Button style={{backgroundColor:"purple"}} variant="contained"  component="a" href={"#/photos/" + this.state.user._id}>
                             User Photos
                         </Button>
                     </div>
                     <div>
-                        <TextField id="first_name" label="First Name" variant="outlined" disabled fullWidth
+                        <TextField  style={{color:"purple"}} id="first_name" label="First Name" variant="outlined" disabled fullWidth
                                    margin="normal"
                                    value={this.state.user.first_name}/>
                     </div>

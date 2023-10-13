@@ -58,7 +58,7 @@ class UserPhotos extends React.Component {
                         User Detail
                     </Button>
                 </div>
-                <ImageList variant="masonry" cols={1} gap={8}>
+                <ImageList style={{}} variant="masonry" cols={1} gap={8}>
                     {this.state.photos.map((item) => (
                         <div key={item._id}>
                             <TextField id="date" label="Photo Date" variant="outlined" disabled fullWidth margin="normal"

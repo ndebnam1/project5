@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9836a16-8d19-4b3a-90bb-f4253ade78a5" name="Changes" comment="Added Correct Files">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2023_1_59_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2023_1_59_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compiled/photoShare.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/compiled/photoShare.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/topBar/TopBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/topBar/TopBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/fetchModelData.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetchModelData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-share.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-share.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photoShare.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/photoShare.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/topBar/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/topBar/TopBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/userDetail/userDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/userDetail/userDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/userDetail/userDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/userDetail/userDetail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/userList/userList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/userList/userList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/userPhotos/userPhotos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/userPhotos/userPhotos.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Christians__branch",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "C:/Users/chris/WebstormProjects/project5",
@@ -67,6 +70,7 @@
       <updated>1697041445951</updated>
       <workItem from="1697041447120" duration="6048000" />
       <workItem from="1697149850166" duration="7335000" />
+      <workItem from="1697227713226" duration="1483000" />
     </task>
     <task id="LOCAL-00001" summary="Set up basics of ExpressJS from what I can tell.">
       <option name="closed" value="true" />

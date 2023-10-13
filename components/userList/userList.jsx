@@ -60,7 +60,7 @@ class UserList extends React.Component {
                                 key={user._id}
                                 divider={true}
                                 component="a" href={"#/users/" + user._id}>
-                    <ListItemText primary={user.first_name + " " + user.last_name} />
+                    <ListItemText id={"first_last"} primary={user.first_name + " " + user.last_name} />
                 </ListItemButton>
             ))
             }

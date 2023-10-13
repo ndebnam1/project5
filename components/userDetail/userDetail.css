@@ -1,0 +1,19 @@
+.userDetailContainer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.userDetailContainer h1{
+    justify-self: center;
+    align-self: center;
+}
+
+.myBtn{
+    width:20vw;
+}
+
+#description value{
+    color: aquamarine;
+}
