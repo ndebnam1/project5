@@ -36,7 +36,7 @@ class PhotoShare extends React.Component {
         <Grid item sm={9}>
           <Paper className="main-grid-item">
             <Switch>
-            <Route exact path="/"
+            {/* <Route exact path="/"
                 render={() => (
                 <Typography variant="body1">
                   Welcome to your photosharing app! This <a href="https://mui.com/components/paper/">Paper</a> component
@@ -47,7 +47,7 @@ class PhotoShare extends React.Component {
                   so you should delete this Route component once you get started.
                 </Typography>
                 )}
-              />
+              /> */}
               <Route path="/users/:userId"
                 render={ props => <UserDetail {...props} /> }
               />

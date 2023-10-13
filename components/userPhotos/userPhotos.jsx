@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Typography
+  Typography,Link,Button
 } from '@mui/material';
 import './userPhotos.css';
 
@@ -12,23 +12,29 @@ class UserPhotos extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      photos: window.models.photoOfUserModel(),
+      photos: window.models.photoOfUserModel(this.props.match.params.userId),
+      id: this.props.match.params.userId,
     };
   }
 
   render() {
-    return (
-      <Typography variant="body1">
-        {this.state.photos.map((photo, index) => (
-          <div key={index}>
-            <img src={"/home/nilesd/cs/softwareEngineering/project5/images/kenobi2.jpg"} />
 
-          </div>
+    return (
+      <div className ="photos">
+      <div className = "container">
+       {this.state.photos.map((photo, index) => (
+          <div className="box" key={index}>
+            <img src={`images/${photo.file_name}`} />
+            
+
+         </div>
+         
         ))}
           
-     
-      </Typography>
-
+      
+        </div>
+        <Button Component={Link} href={`#/users/${this.state.id}`}>Back to user Details</Button>
+      </div>
     );
   }
 }
